@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="styles.css">
     <script type="text/javascript" src="script.js"></script>
 
-
-    <div class="center">
+<div class="Main">
+    <div class="widget-one">
         <div class="search">
             <input type="text" placeholder="My Location" id="city">
             <button onclick="getCity()" class="search-button"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 26 26" fill="none">
@@ -18,12 +18,35 @@
                 <rect x="0.5" y="0.5" width="25" height="25" rx="12.5" fill="black" fill-opacity="0.58"/>
                 <path d="M13.4805 5.61659C16.5291 5.61659 18.9805 7.87657 18.9805 10.6515C18.9805 15.4575 13.4805 21.7511 13.4805 21.7511C13.4805 21.7511 7.98052 15.4575 7.98052 10.6515C7.98052 7.87657 10.432 5.61659 13.4805 5.61659ZM13.4805 13.1117C14.9262 13.1117 16.0891 12.0532 16.0891 10.7373C16.0891 9.42137 14.9262 8.33429 13.4805 8.33429C12.0348 8.33429 10.872 9.42137 10.872 10.7373C10.872 12.0532 12.0348 13.1117 13.4805 13.1117Z" fill="white"/>
               </svg>
-        
-        <div>
+              <div class="info">
+                <h3 id="place">Weather in</h3>
+                <h2 id="temp">°F</h2>
+                <p id="humidity">%</p>
+                <p id="wind">mph</p>
+                <p id="gusts">mph</p>
+          
+            </div>
 
-            
+          </div>
 
+      </div>
+
+    </div>
+
+    <div class="right-side">
+      <div class="feels-like">
+      <h1 id="feelslike">Feels Like</h1>
+      <h2 id="feels-temp">°F</h2>
+      <p id="feelsdescript">Wind is making it feel cooler</p>
+      </div>
+      <div class="UV">
+        <h1 id="UVtext">UV Index</h1>
+        <h2 id="UVnum">7</h2>
+        <h3 id="UVrating">High</h3>
+        <p id="UVdescript">Use sun protection until 7:00</p>
         </div>
+    </div>
+  </div>
 </body>
 
 </html>
