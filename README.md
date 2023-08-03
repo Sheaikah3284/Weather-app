@@ -17,30 +17,6 @@ WeatherApp is a simple and user-friendly weather application that provides real-
 
 - **User-friendly Interface:** The app features a clean and intuitive interface, making it easy for users of all ages to navigate and use.
 
-## Screenshots
-
-![Home Screen](screenshot_home.png)
-
-![Weather Maps](screenshot_maps.png)
-
-![Hourly Forecast](screenshot_hourly.png)
-
-## Getting Started
-
-To run WeatherApp on your device, follow these simple steps:
-
-1. **Prerequisites:** Ensure you have the latest version of iOS or Android installed on your device.
-
-2. **Installation:** Download WeatherApp from the App Store (for iOS) or Google Play Store (for Android) and install it on your device.
-
-3. **Permissions:** Upon the first launch, the app will request access to your device's location. Grant the permission to enable the real-time weather feature.
-
-4. **Usage:** Once the app is installed and permission is granted, open WeatherApp. The home screen will display the weather details for your current location automatically. To check the weather for other locations, use the search bar or access your favorite locations.
-
-5. **Weather Maps:** Tap on the "Maps" icon in the navigation bar to access weather maps and explore different weather layers.
-
-6. **Settings:** Customize the app according to your preferences in the settings section.
-
 ## Technologies Used
 
 WeatherApp was built using the following technologies:
@@ -52,14 +28,6 @@ WeatherApp was built using the following technologies:
 - **React Navigation:** Handles navigation within the app.
 
 - **Redux:** Manages the app's state and data flow.
-
-## Feedback and Support
-
-We welcome your feedback, suggestions, and bug reports. If you encounter any issues while using WeatherApp or have ideas to improve the app, please reach out to our support team at support@weatherapp.com or visit our website [www.weatherapp.com/support](http://www.weatherapp.com/support).
-
-## License
-
-WeatherApp is licensed under the [MIT License](LICENSE.md).
 
 ## Acknowledgments
 
