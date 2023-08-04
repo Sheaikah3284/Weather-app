@@ -6,14 +6,98 @@ html{
     background-repeat: no-repeat;
 }
 
+.main{
+    display: flex;
+    width: 408px;
+    height: 332px;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+}
 
+#temp{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.speed1{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.speed2{
+    display: flex;
+    width: 144px;
+    align-items: center;
+    gap: 25px;
+}
+
+.speed3{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 64px;
+    background: rgba(0, 0, 0, 0.58);
+}
+
+#wind-direction{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#mph1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#mph2{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#wind{
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#gusts{
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
 .search{
     display: flex;
     align-items: center;
     gap: 3px;
-
-
 }
 
 .search-button{
