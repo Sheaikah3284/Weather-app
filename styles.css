@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@175&family=Lobster&display=swap');
-html{
-    background: url(https://images.unsplash.com/photo-1530258422663-6749b47598fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=895&q=80), lightgray 50% / cover no-repeat; 
-    background-size: cover;
-    flex-shrink: 0;
-    background-repeat: no-repeat;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@175&family=Lobster&display=swap");
+html {
+  background: url(https://images.unsplash.com/photo-1530258422663-6749b47598fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=895&q=80),
+    lightgray 50% / cover no-repeat;
+  background-repeat: no-repeat;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.main{
+.Main {
     display: flex;
-    width: 408px;
-    height: 332px;
     justify-content: center;
     align-items: flex-start;
     align-content: flex-start;
@@ -17,229 +18,233 @@ html{
     flex-wrap: wrap;
 }
 
-#temp{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+#temp {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
-.speed1{
+.speed1 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.speed2 {
+  display: flex;
+  width: 144px;
+  align-items: center;
+  gap: 25px;
+}
+
+.speed3 {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 64px;
+  background: rgba(0, 0, 0, 0.58);
+}
+
+#wind-direction {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#mph1 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#mph2 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#wind {
+  color: rgba(255, 255, 255, 0.65);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#gusts {
+  color: rgba(255, 255, 255, 0.65);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.search-button {
+  width: 32px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+}
+
+.search-button:hover {
+  cursor: pointer;
+}
+
+.location {
+  width: 32px;
+  height: 30px;
+  flex-shrink: 0;
+  border: none;
+  background-color: transparent;
+}
+.location:hover {
+  cursor: pointer;
+}
+
+#city {
+  display: flex;
+  padding: 2px 7px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.58);
+  border: none;
+  color: rgba(255, 255, 255, 0.65);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "Inter", sans-serif;
+}
+
+.widget-one {
+  display: flex;
+  padding: 18.5px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: black 10px solid;
+}
+
+.right-side {
     display: flex;
-    align-items: center;
-    gap: 30px;
-}
-
-.speed2{
-    display: flex;
-    width: 144px;
-    align-items: center;
-    gap: 25px;
-}
-
-.speed3{
-    display: flex;
-    padding: 20px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 64px;
-    background: rgba(0, 0, 0, 0.58);
-}
-
-#wind-direction{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-#mph1{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-#mph2{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-#wind{
-    color: rgba(255, 255, 255, 0.65);
-    font-family: Inter;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-#gusts{
-    color: rgba(255, 255, 255, 0.65);
-    font-family: Inter;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.search{
-    display: flex;
-    align-items: center;
-    gap: 3px;
-}
-
-.search-button{
-    width: 32px;
-    height: 30px;
-    border: none;
-    background-color: transparent;
-}
-
-.search-button:hover{
-    cursor: pointer;
-}
-
-.location{
-    width: 32px;
-    height: 30px;
-    flex-shrink: 0;
-    border: none;
-    background-color: transparent;
-}
-.location:hover{
-    cursor: pointer;
-}
-
-#city{
-    display: flex;
-    padding: 2px 7px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 15px;
-    background: rgba(0, 0, 0, 0.58);
-    border: none;
-    color: rgba(255, 255, 255, 0.65);
-    font-family: Inter;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    font-family: 'Inter', sans-serif;
-}
-
-.widget-one{
-    display: flex;
-    padding: 18.5px 0px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    background: rgba(0, 0, 0, 0.58);
-}
-
-.right-side{
-    display: flex;
-    width: 128px;
     flex-direction: column;
     align-items: center;
     gap: 10px;
     flex-shrink: 0;
-
 }
 
-.feels-like{
-    display: flex;
-    padding: 8px 6px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 34px;
-    border-radius: 15px;
-    background: rgba(0, 0, 0, 0.58);
+.feels-like {
+  display: flex;
+  padding: 8px 6px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 34px;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.58);
 }
 
-#feelslike{
-    color: rgba(255, 255, 255, 0.65);
-    font-family: Inter;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+#feelslike {
+  color: rgba(255, 255, 255, 0.65);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
 }
 
-#feels-temp{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+#feels-temp {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
 }
 
-#feelsdescript{
-    color: rgba(255, 255, 255, 0.65);
-    font-family: Inter;
-    font-size: 10px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+#feelsdescript {
+  color: rgba(255, 255, 255, 0.65);
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
 }
 
-.UV{
-    display: flex;
-    padding: 7px 10px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 5px;
-    border-radius: 15px;
-    background: rgba(0, 0, 0, 0.58);
+.UV {
+  display: flex;
+  padding: 7px 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.58);
 }
 
-#UVtext{
-    color: rgba(255, 255, 255, 0.65);
-    font-family: Inter;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+#UVtext {
+  color: rgba(255, 255, 255, 0.65);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px
 }
 
-#UVnum{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+#UVnum {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px
 }
 
-#UVrating{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+#UVrating {
+  color: #fff;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px
 }
 
-#UVdescript{
-    color: rgba(255, 255, 255, 0.65);
-    font-family: Inter;
-    font-size: 10px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+#UVdescript {
+  color: rgba(255, 255, 255, 0.65);
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px
 }
